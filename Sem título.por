@@ -1,18 +1,14 @@
-programa {
- funcao inicio() {
+   programa {
+   funcao inicio() {
+   real a,b, x
+   leia(a,b)
+   x=a
+   a=b
+   b=x
+   escreva(a)
+   escreva(b)
+   
 
-    real celsius,kelvin,fahrenheit
-
-    escreva("temperatura: ") 
-    leia(celsius)
-
-    fahrenheit = celsius * 1.8 +32
-    kelvin = celsius + 273.15
-
-    escreva("temperatura em kelvin " +kelvin)
-    escreva("\n temperatura em fahrenheit:" +fahrenheit)
-    
     
   }
 }
-
