@@ -1,51 +1,16 @@
-   programa {
-   funcao inicio() {
-   inteiro numeros ,mes 
-   escreva("mes")
-   leia(mes)
-   se(mes==1){
-   escreva("janeiro")
-   }
-   senao se(mes==2){
-   escreva("fevereiro")
-   }
-   senao se(mes==3){
-   escreva("março")
-   }
-   senao se(mes==4){
-   escreva("abril")
-   }
-   senao se(mes==5){
-   escreva("maio")
-   }
-   senao se(mes==6){
-   escreva("junho")
-   }
-   senao se(mes==7){
-   escreva("julho")
-   } 
-   senao se(mes==8){
-   escreva("agosto")
-   }
-   senao se(mes==9){
-   escreva("setembro")
-   } 
-   senao se(mes==10){
-   escreva("outubro")
-   }
-   senao se(mes==11){
-   escreva("novembro")
-   }
-   senao se(mes==12){
-   escreva("dezembro")
-   }
-   senao {
-   escreva("opção invalida")
-   }
-    
+programa {
+  funcao inicio() {
+   real positivo,negativo, zero,numero 
+   escreva("escolha um numero") 
+   leia(numero)
 
+   se(numero>0)
+   escreva("\n esse numero e positivo:")
 
+   se(numero < 0)
+   escreva("\n esse numero e negativo")
 
-
+   se(numero == 0)
+   escreva("\N esse numero e igual a zero")
   }
 }
