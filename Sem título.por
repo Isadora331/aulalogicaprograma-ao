@@ -1,16 +1,16 @@
-   programa {
-   funcao inicio() {
-    //peça um número inteiro ao usuário e diga se ele é par ou ímpar.
-    inteiro numero
+programa {
+  funcao inicio() {
+  real sa,ns
 
-    escreva("informe um número")
-    leia(numero)
+  escreva ("salario atual")  
+  leia(sa)
+  se(sa<500)
+  ns = sa*1.15
+  senao se(sa<1000)
+  ns = sa* 1.1
 
-    //ver se o resto da divisão é == 0
-    se ( numero % 2 == 0){
-      escreva("numero PAR :", numero)
-    }senao{
-      escreva("numero IMPAR :",numero)
-    }
-}
+  senao
+  ns = sa*1.05
+  escreva("\nsalario ajustado:", ns)
+  }
 }
